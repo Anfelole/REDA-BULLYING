@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+.contenedor{
+   padding: 2% 20% ;
+}
+.seccion-nose{
+    text-align: justify;
+}
+.menú {
+    /* * ======== menú pegajoso ========*/
+	position: sticky; 
+	top: 0; /* posicionar arriba*/
+    background-color: rgba(69, 139, 197, 0.918);
+    text-align: center;
+    width: 100%;
+    height: 60px;
+
+}
+.logo{
+    /* Agregar icono al menu*/
+    width: 150px;
+    margin-top: 7px;
+    float: left;
+}
+.espacio{
+    width: 100%;
+    height: 300px;
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-image: url(https://laorquesta.mx/wp-content/uploads/2019/09/libros.jpg);
+}
+.opciones {
+    padding: 10px 14px 5px 14px ; 
+    display: inline-block;
+
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    outline: none;
+    
+}
+
+h1{
+    text-align: center;
+    line-height: 250px;
+    color:white ;
+    text-shadow: black 2px 1.5px;
+}
+h2{
+    color: rgb(73, 67, 67);
+    line-height: 100px;
+}
+h3{
+    text-align: center;
+    padding: 1%;
+}
+
+a:active{
+    color: black;
+}
+footer{
+   background-color: cadetblue;
+   
+   position: sticky;
+   bottom: 0;
+   background-color:rgba(69, 139, 197, 0.918);
+}
+table{
+   padding: 2% ;
+   margin-top: 30px;
+   width: 100%;
+   height: 10%;
+}
+.espacio2{
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+    background-repeat: no-repeat;
+}
+tr{
+    text-align: center;
+}
+a{color: black;}
+.final{
+    background-color: rgba(69, 139, 197, 0.918);  
+}
