@@ -1,0 +1,145 @@
+
+header {
+	background: url('https://www.launion.com.mx/media/k2/items/cache/084fa80e70f82c9266bea8a814ba5ec6_XL.jpg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
+	
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+h3, p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+}
+button:hover{
+	cursor: pointer;
+}
+
+/*para el nav*/
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/*Para el social bar si que si raza*/
+.social-bar{
+	position:fixed;
+	right: 0;
+	top: 35%;
+	font-size:1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+.icon{
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+.icon-facebook2{
+background: #3F60A5;
+ }
+.icon-instagram{
+background: #F46363;
+}
+.icon-youtube{
+background: #E83028;
+}
+.icon-spotify{
+background: #33CE4F;
+}
+.icon-mail{
+background: #F52424 ; 
+}
+
+.icon:first-child{
+	border-radius:  1rem 0 0 0 0;
+}
+.icon:last-child{
+border-radius:  0 0 0 0 1rem;
+}
+.icon:hover{
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 0 1rem;
+	box-shadow: 0 0 .5rem rgb(0, 0, 0, 0, 0.42)
+}
+
+/*slider*/
+div.mio{
+	width: 60%;
+ margin: 0 auto;
+background: orange;
+text-align: center;
+		text-shadow: 1px 1px 1px #333;
+}
+
+
+#galeria .col-log-4{
+margin: 0 !important;
+	padding: 25px;
+}
+
+#galeria img{
+	width: 100%;
+	height: 150px;
+}
+#galeria img:hover{
+	border:5px solid #7DCD28;
+}
